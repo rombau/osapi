@@ -1,0 +1,1305 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
+<title>Online-Soccer 2.0</title>
+
+<script src="js/sorttable.js" type="text/javascript"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+
+<link rel="STYLESHEET" type="text/css" href="js/dxhtml/codebase/dhtmlxgrid.css">
+
+<link rel="stylesheet" href="css/os_styles.css" />
+
+<link rel="stylesheet" href="css/print.css" media="print" />
+
+<link rel="SHORTCUT ICON" href="images/favicon.ico" type="image/ico" />
+
+<script type="text/javascript" src="js/osfunc.js"></script>
+
+</head>
+
+<body><div>
+<p class="noprint" id="TopThema"><iframe src="http://rcm-de.amazon.de/e/cm?t=onlinsocce20-21&o=3&p=26&l=ur1&category=de_mp3_download&banner=16PHPC1TRHC8FJX2R782&f=ifr" width="468" height="60" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe></p><table cellpadding="5" border="0">
+
+<tbody>
+
+<tr>
+
+<td rowspan="2" valign="top"><img width="75" heigth="75" src="images/wappen/00000708.png"></td>
+
+<td colspan="4">
+
+
+
+<table border="0">
+
+	<tr><td valign="top">
+
+		<b>Cork College - 1. Liga <a href="http://os.ongapo.com/forum/index.php?page=Board&boardID=62" target="_blank">Irland</a></b>&nbsp;&nbsp;&nbsp;&nbsp;
+
+	</td><td>
+
+		<a href="javascript:writePM(814)">Marco Heinrich <br /><a href="st.php?c=1617" onClick="teaminfo(1617); return false;">Mein Zweitteam</a></a>
+
+	</td></tr>
+
+</table>	
+
+</td><td rowspan="2" valign="top"><img width="75" align="middle" heigth="75" src="images/wappen/00000708.png" id="Badge"></td>
+
+<td><a href="javascript:os_hilfe('team_1')"><img border="0" align="right" src="images/os_hilfe.gif"></a></td>
+
+</tr>
+
+<tr><!--<td colspan="4"><table border="0"><tr>--><td align="center" valign="top">
+
+<a hspace="20" href="st.php?s=0&c=708">Team&uuml;bersicht</a>
+
+<br>
+
+<a hspace="20" href="st.php?s=1&c=708">Vertragsdaten</a>
+
+<br>
+
+<a hspace="20" href="st.php?s=2&c=708">Einzelwerte</a>
+
+</td>
+
+<td align="center" valign="top">
+
+<a hspace="20" href="st.php?s=5&c=708">Teaminfo</a>
+
+<br>
+
+<a hspace="20" href="st.php?s=6&c=708">Saisonplan</a>
+
+<br>
+
+<a hspace="20" href="javascript:tabellenplatz(708)">Tabellenpl&auml;tze</a>
+
+</td>
+
+<td align="center" valign="top">
+
+<a hspace="20" href="st.php?s=3&c=708">Statistik&nbsp;Saison</a>
+
+<br>
+
+<a hspace="20" href="st.php?s=4&c=708">Statistik&nbsp;Gesamt</a>
+
+</td>
+
+<td align="center" valign="top">
+
+<a hspace="20" href="st.php?s=7&c=708">Vereinshistorie</a>
+
+<br>
+
+<a hspace="20" href="st.php?s=8&c=708">Transferhistorie</a>
+
+<br>
+
+<a hspace="20" href="st.php?s=9&c=708">Leihhistorie</a>
+
+</td>
+
+</tr><!--<table></td></tr>-->
+
+</tbody>
+
+</table><table class='sortable' id='team' border=0 align=left>
+
+<tr>
+
+<td>#</td>
+
+<td>Nr.</td>
+
+<td>Name</td>
+
+<td>Alter</td>
+
+<td>Pos</td>
+
+<td></td>
+
+<td align="center" colspan="2">Land</td>
+
+<td>U</td>
+
+<td>Skillschnitt</td>
+
+<td>Opt.Skill</td>
+
+<td>Vertrag</td>
+
+<td>Monatsgehalt</td>
+
+<td>Spielerwert</td>
+
+<td>TS</td>
+
+</tr><tr align="right">
+
+	<td class="TOR" align="right">1</td>
+
+	<td align="right" class="TOR">36</td>
+
+	<td class="TOR" align="left"><a onClick="spielerinfo(6921); return false;" href="sp.php?s=6921">Krisztián Takalo</a></td>
+
+	<td class="TOR">34</td>
+
+	<td class="TOR" colspan="2">TOR</td>
+
+	<td><img src="images/flaggen/HUN.gif" /></td>
+
+	<td class="TOR" align="left"><abbr title="Ungarn">HUN</abbr></td>
+
+	<td class="STU"></td>
+
+	<td class="TOR">62.29</td>
+
+	<td class="TOR">87.81</td>
+
+	<td class="TOR">12</td>
+
+	<td class="TOR">162.926</td>
+
+	<td class="TOR">22.550.750</td>
+
+	<td class="TOR">L4</td>
+
+</tr>
+<tr align="right">
+
+	<td class="TOR" align="right">2</td>
+
+	<td align="right" class="TOR">1</td>
+
+	<td class="TOR" align="left"><a onClick="spielerinfo(18258); return false;" href="sp.php?s=18258">Vuk Krivokapic</a></td>
+
+	<td class="TOR">33</td>
+
+	<td class="TOR" colspan="2">TOR</td>
+
+	<td><img src="images/flaggen/SCG.gif" /></td>
+
+	<td class="TOR" align="left"><abbr title="Serbien und Montenegro">SCG</abbr></td>
+
+	<td class="STU"></td>
+
+	<td class="TOR">55.76</td>
+
+	<td class="TOR">80.89</td>
+
+	<td class="TOR">13</td>
+
+	<td class="TOR">75.739</td>
+
+	<td class="TOR">10.907.572</td>
+
+	<td class="BAK">0</td>
+
+</tr>
+<tr align="right">
+
+	<td class="TOR" align="right">3</td>
+
+	<td align="right" class="TOR">37</td>
+
+	<td class="TOR" align="left"><a onClick="spielerinfo(52929); return false;" href="sp.php?s=52929">Roland Haldan</a></td>
+
+	<td class="TOR">24</td>
+
+	<td class="TOR" colspan="2">TOR</td>
+
+	<td><img src="images/flaggen/ROM.gif" /></td>
+
+	<td class="TOR" align="left"><abbr title="Rum&auml;nien">ROM</abbr></td>
+
+	<td class="STU"></td>
+
+	<td class="TOR">43.76</td>
+
+	<td class="TOR">78.07</td>
+
+	<td class="TOR">12</td>
+
+	<td class="TOR">41.495</td>
+
+	<td class="TOR">7.069.851</td>
+
+	<td class="BAK">0</td>
+
+</tr>
+<tr align="right">
+
+	<td class="TOR" align="right">4</td>
+
+	<td align="right" class="TOR">38</td>
+
+	<td class="TOR" align="left"><a onClick="spielerinfo(78414); return false;" href="sp.php?s=78414">Ealem Pulaha</a></td>
+
+	<td class="TOR">21</td>
+
+	<td class="TOR" colspan="2">TOR</td>
+
+	<td><img src="images/flaggen/ALB.gif" /></td>
+
+	<td class="TOR" align="left"><abbr title="Albanien">ALB</abbr></td>
+
+	<td class="STU"></td>
+
+	<td class="TOR">28.47</td>
+
+	<td class="TOR">32.59</td>
+
+	<td class="TOR">25</td>
+
+	<td class="TOR">4.349</td>
+
+	<td class="TOR">138.928</td>
+
+	<td class="BAK">0</td>
+
+</tr>
+<tr align="right">
+
+	<td class="ABW" align="right">5</td>
+
+	<td align="right" class="ABW">3</td>
+
+	<td class="ABW" align="left"><a onClick="spielerinfo(6612); return false;" href="sp.php?s=6612">Jacques Zossou</a></td>
+
+	<td class="ABW">29</td>
+
+	<td class="ABW" colspan="2">ABW</td>
+
+	<td><img src="images/flaggen/BEN.gif" /></td>
+
+	<td class="ABW" align="left"><abbr title="Benin">BEN</abbr></td>
+
+	<td class="STU">#</td>
+
+	<td class="ABW">55.35</td>
+
+	<td class="ABW">81.81</td>
+
+	<td class="ABW">14</td>
+
+	<td class="ABW">73.581</td>
+
+	<td class="ABW">13.819.062</td>
+
+	<td class="BAK">0</td>
+
+</tr>
+<tr align="right">
+
+	<td class="ABW" align="right">6</td>
+
+	<td align="right" class="ABW">4</td>
+
+	<td class="ABW" align="left"><a onClick="spielerinfo(18260); return false;" href="sp.php?s=18260">Daire Potter</a></td>
+
+	<td class="ABW">32</td>
+
+	<td class="ABW" colspan="2">ABW</td>
+
+	<td><img src="images/flaggen/IRL.gif" /></td>
+
+	<td class="ABW" align="left"><abbr title="Irland">IRL</abbr></td>
+
+	<td class="STU"></td>
+
+	<td class="ABW">58.41</td>
+
+	<td class="ABW">82.11</td>
+
+	<td class="ABW">2</td>
+
+	<td class="ABW">112.204</td>
+
+	<td class="ABW">14.300.841</td>
+
+	<td class="BAK">0</td>
+
+</tr>
+<tr align="right">
+
+	<td class="ABW" align="right">7</td>
+
+	<td align="right" class="ABW">25</td>
+
+	<td class="ABW" align="left"><a onClick="spielerinfo(29676); return false;" href="sp.php?s=29676">Owen Davoren</a></td>
+
+	<td class="ABW">32</td>
+
+	<td class="ABW" colspan="2">ABW</td>
+
+	<td><img src="images/flaggen/IRL.gif" /></td>
+
+	<td class="ABW" align="left"><abbr title="Irland">IRL</abbr></td>
+
+	<td class="STU"></td>
+
+	<td class="ABW">48.47</td>
+
+	<td class="ABW">76.00</td>
+
+	<td class="ABW">1</td>
+
+	<td class="ABW">36.284</td>
+
+	<td class="ABW">5.316.842</td>
+
+	<td class="BAK">0</td>
+
+</tr>
+<tr align="right">
+
+	<td class="ABW" align="right">8</td>
+
+	<td align="right" class="ABW">2</td>
+
+	<td class="ABW" align="left"><a onClick="spielerinfo(33678); return false;" href="sp.php?s=33678">David Feichtinger</a></td>
+
+	<td class="ABW">31</td>
+
+	<td class="ABW" colspan="2">ABW</td>
+
+	<td><img src="images/flaggen/AUT.gif" /></td>
+
+	<td class="ABW" align="left"><abbr title="&Ouml;sterreich">AUT</abbr></td>
+
+	<td class="STU"></td>
+
+	<td class="ABW">58.18</td>
+
+	<td class="ABW">82.85</td>
+
+	<td class="ABW">13</td>
+
+	<td class="ABW">128.846</td>
+
+	<td class="ABW">15.570.748</td>
+
+	<td class="BAK">0</td>
+
+</tr>
+<tr align="right">
+
+	<td class="ABW" align="right">9</td>
+
+	<td align="right" class="ABW">23</td>
+
+	<td class="ABW" align="left"><a onClick="spielerinfo(42178); return false;" href="sp.php?s=42178">Barry Sweeney</a></td>
+
+	<td class="ABW">25</td>
+
+	<td class="ABW" colspan="2">ABW</td>
+
+	<td><img src="images/flaggen/IRL.gif" /></td>
+
+	<td class="ABW" align="left"><abbr title="Irland">IRL</abbr></td>
+
+	<td class="STU"></td>
+
+	<td class="ABW">52.59</td>
+
+	<td class="ABW">80.96</td>
+
+	<td class="ABW">26</td>
+
+	<td class="ABW">90.322</td>
+
+	<td class="ABW">13.884.108</td>
+
+	<td class="BAK">0</td>
+
+</tr>
+<tr align="right">
+
+	<td class="ABW" align="right">10</td>
+
+	<td align="right" class="ABW">24</td>
+
+	<td class="ABW" align="left"><a onClick="spielerinfo(55833); return false;" href="sp.php?s=55833">Ross Dempsey</a></td>
+
+	<td class="ABW">24</td>
+
+	<td class="ABW" colspan="2">ABW</td>
+
+	<td><img src="images/flaggen/IRL.gif" /></td>
+
+	<td class="ABW" align="left"><abbr title="Irland">IRL</abbr></td>
+
+	<td class="STU"></td>
+
+	<td class="ABW">53.59</td>
+
+	<td class="ABW">82.63</td>
+
+	<td class="ABW">26</td>
+
+	<td class="ABW">149.258</td>
+
+	<td class="ABW">17.626.757</td>
+
+	<td class="BAK">0</td>
+
+</tr>
+<tr align="right">
+
+	<td class="ABW" align="right">11</td>
+
+	<td align="right" class="ABW">22</td>
+
+	<td class="ABW" align="left"><a onClick="spielerinfo(66852); return false;" href="sp.php?s=66852">Kenny Woods</a></td>
+
+	<td class="ABW">23</td>
+
+	<td class="ABW" colspan="2">ABW</td>
+
+	<td><img src="images/flaggen/IRL.gif" /></td>
+
+	<td class="ABW" align="left"><abbr title="Irland">IRL</abbr></td>
+
+	<td class="STU"></td>
+
+	<td class="ABW">40.24</td>
+
+	<td class="ABW">70.52</td>
+
+	<td class="ABW">6</td>
+
+	<td class="ABW">11.399</td>
+
+	<td class="ABW">3.690.213</td>
+
+	<td class="BAK">0</td>
+
+</tr>
+<tr align="right">
+
+	<td class="ABW" align="right">12</td>
+
+	<td align="right" class="ABW">17</td>
+
+	<td class="ABW" align="left"><a onClick="spielerinfo(71695); return false;" href="sp.php?s=71695">Geoff Todd</a></td>
+
+	<td class="ABW">21</td>
+
+	<td class="ABW" colspan="2">ABW</td>
+
+	<td><img src="images/flaggen/SCO.gif" /></td>
+
+	<td class="ABW" align="left"><abbr title="Schottland">SCO</abbr></td>
+
+	<td class="STU"></td>
+
+	<td class="ABW">38.12</td>
+
+	<td class="ABW">66.67</td>
+
+	<td class="ABW">13</td>
+
+	<td class="ABW">27.511</td>
+
+	<td class="ABW">2.821.886</td>
+
+	<td class="BAK">0</td>
+
+</tr>
+<tr align="right">
+
+	<td class="DMI" align="right">13</td>
+
+	<td align="right" class="DMI">5</td>
+
+	<td class="DMI" align="left"><a onClick="spielerinfo(1028); return false;" href="sp.php?s=1028">Stanley Dhoire </a></td>
+
+	<td class="DMI">30</td>
+
+	<td class="DMI" colspan="2">DMI</td>
+
+	<td><img src="images/flaggen/SCO.gif" /></td>
+
+	<td class="DMI" align="left"><abbr title="Schottland">SCO</abbr></td>
+
+	<td class="STU"></td>
+
+	<td class="DMI">54.71</td>
+
+	<td class="DMI">80.52</td>
+
+	<td class="DMI">13</td>
+
+	<td class="DMI">116.330</td>
+
+	<td class="DMI">12.225.111</td>
+
+	<td class="BAK">0</td>
+
+</tr>
+<tr align="right">
+
+	<td class="DMI" align="right">14</td>
+
+	<td align="right" class="DMI">26</td>
+
+	<td class="DMI" align="left"><a onClick="spielerinfo(4487); return false;" href="sp.php?s=4487">Kobai Medyannikov</a></td>
+
+	<td class="DMI">26</td>
+
+	<td class="DMI" colspan="2">DMI</td>
+
+	<td><img src="images/flaggen/KIR.gif" /></td>
+
+	<td class="DMI" align="left"><abbr title="Kirgistan">KIR</abbr></td>
+
+	<td class="STU">#</td>
+
+	<td class="DMI">54.82</td>
+
+	<td class="DMI">83.56</td>
+
+	<td class="DMI">50</td>
+
+	<td class="DMI">189.448</td>
+
+	<td class="DMI">18.366.025</td>
+
+	<td class="BAK">0</td>
+
+</tr>
+<tr align="right">
+
+	<td class="DMI" align="right">15</td>
+
+	<td align="right" class="DMI">27</td>
+
+	<td class="DMI" align="left"><a onClick="spielerinfo(18266); return false;" href="sp.php?s=18266">Damien Doyle</a></td>
+
+	<td class="DMI">30</td>
+
+	<td class="DMI" colspan="2">DMI</td>
+
+	<td><img src="images/flaggen/IRL.gif" /></td>
+
+	<td class="DMI" align="left"><abbr title="Irland">IRL</abbr></td>
+
+	<td class="STU"></td>
+
+	<td class="DMI">55.35</td>
+
+	<td class="DMI">79.44</td>
+
+	<td class="DMI">25</td>
+
+	<td class="DMI">104.836</td>
+
+	<td class="DMI">11.714.885</td>
+
+	<td class="BAK">0</td>
+
+</tr>
+<tr align="right">
+
+	<td class="DMI" align="right">16</td>
+
+	<td align="right" class="DMI">7</td>
+
+	<td class="DMI" align="left"><a onClick="spielerinfo(49250); return false;" href="sp.php?s=49250">Stephan Pfannenberger</a></td>
+
+	<td class="DMI">25</td>
+
+	<td class="DMI" colspan="2">DMI</td>
+
+	<td><img src="images/flaggen/AUT.gif" /></td>
+
+	<td class="DMI" align="left"><abbr title="&Ouml;sterreich">AUT</abbr></td>
+
+	<td class="STU"></td>
+
+	<td class="DMI">54.35</td>
+
+	<td class="DMI">80.00</td>
+
+	<td class="DMI">14</td>
+
+	<td class="DMI">90.013</td>
+
+	<td class="DMI">15.902.164</td>
+
+	<td class="BAK">0</td>
+
+</tr>
+<tr align="right">
+
+	<td class="DMI" align="right">17</td>
+
+	<td align="right" class="DMI">6</td>
+
+	<td class="DMI" align="left"><a onClick="spielerinfo(55167); return false;" href="sp.php?s=55167">Svetoslav Gruev</a></td>
+
+	<td class="DMI">25</td>
+
+	<td class="DMI" colspan="2">DMI</td>
+
+	<td><img src="images/flaggen/BUL.gif" /></td>
+
+	<td class="DMI" align="left"><abbr title="Bulgarien">BUL</abbr></td>
+
+	<td class="STU"></td>
+
+	<td class="DMI">58.88</td>
+
+	<td class="DMI">86.56</td>
+
+	<td class="DMI">14</td>
+
+	<td class="DMI">315.287</td>
+
+	<td class="DMI">29.627.616</td>
+
+	<td class="BAK">0</td>
+
+</tr>
+<tr align="right">
+
+	<td class="DMI" align="right">18</td>
+
+	<td align="right" class="DMI">0</td>
+
+	<td class="DMI" align="left"><a onClick="spielerinfo(98086); return false;" href="sp.php?s=98086">Ross Dolan</a></td>
+
+	<td class="DMI">18</td>
+
+	<td class="DMI" colspan="2">DMI</td>
+
+	<td><img src="images/flaggen/IRL.gif" /></td>
+
+	<td class="DMI" align="left"><abbr title="Irland">IRL</abbr></td>
+
+	<td class="STU"></td>
+
+	<td class="DMI">20.06</td>
+
+	<td class="DMI">21.07</td>
+
+	<td class="DMI">13</td>
+
+	<td class="DMI">3.500</td>
+
+	<td class="DMI">33.589</td>
+
+	<td class="BAK">0</td>
+
+</tr>
+<tr align="right">
+
+	<td class="MIT" align="right">19</td>
+
+	<td align="right" class="MIT">15</td>
+
+	<td class="MIT" align="left"><a onClick="spielerinfo(2046); return false;" href="sp.php?s=2046">Ron Jock </a></td>
+
+	<td class="MIT">27</td>
+
+	<td class="MIT" colspan="2">MIT</td>
+
+	<td><img src="images/flaggen/SCO.gif" /></td>
+
+	<td class="MIT" align="left"><abbr title="Schottland">SCO</abbr></td>
+
+	<td class="STU"></td>
+
+	<td class="MIT">53.94</td>
+
+	<td class="MIT">78.85</td>
+
+	<td class="MIT">2</td>
+
+	<td class="MIT">62.578</td>
+
+	<td class="MIT">12.322.457</td>
+
+	<td class="BAK">0</td>
+
+</tr>
+<tr align="right">
+
+	<td class="MIT" align="right">20</td>
+
+	<td align="right" class="MIT">13</td>
+
+	<td class="MIT" align="left"><a onClick="spielerinfo(2331); return false;" href="sp.php?s=2331">Ebbe Henriksen</a></td>
+
+	<td class="MIT">29</td>
+
+	<td class="MIT" colspan="2">MIT</td>
+
+	<td><img src="images/flaggen/DEN.gif" /></td>
+
+	<td class="MIT" align="left"><abbr title="D&auml;nemark">DEN</abbr></td>
+
+	<td class="STU"></td>
+
+	<td class="MIT">59.41</td>
+
+	<td class="MIT">83.78</td>
+
+	<td class="MIT">2</td>
+
+	<td class="MIT">186.803</td>
+
+	<td class="MIT">20.920.520</td>
+
+	<td class="BAK">0</td>
+
+</tr>
+<tr align="right">
+
+	<td class="MIT" align="right">21</td>
+
+	<td align="right" class="MIT">14</td>
+
+	<td class="MIT" align="left"><a onClick="spielerinfo(23157); return false;" href="sp.php?s=23157">Adrian White</a></td>
+
+	<td class="MIT">28</td>
+
+	<td class="MIT" colspan="2">MIT</td>
+
+	<td><img src="images/flaggen/IRL.gif" /></td>
+
+	<td class="MIT" align="left"><abbr title="Irland">IRL</abbr></td>
+
+	<td class="STU"></td>
+
+	<td class="MIT">51.47</td>
+
+	<td class="MIT">78.63</td>
+
+	<td class="MIT">26</td>
+
+	<td class="MIT">92.446</td>
+
+	<td class="MIT">9.769.142</td>
+
+	<td class="BAK">0</td>
+
+</tr>
+<tr align="right">
+
+	<td class="MIT" align="right">22</td>
+
+	<td align="right" class="MIT">8</td>
+
+	<td class="MIT" align="left"><a onClick="spielerinfo(42176); return false;" href="sp.php?s=42176">Mariusz Jarzabek</a></td>
+
+	<td class="MIT">25</td>
+
+	<td class="MIT" colspan="2">MIT</td>
+
+	<td><img src="images/flaggen/POL.gif" /></td>
+
+	<td class="MIT" align="left"><abbr title="Polen">POL</abbr></td>
+
+	<td class="STU"></td>
+
+	<td class="MIT">59.35</td>
+
+	<td class="MIT">84.78</td>
+
+	<td class="MIT">38</td>
+
+	<td class="MIT">260.715</td>
+
+	<td class="MIT">27.730.420</td>
+
+	<td class="BAK">0</td>
+
+</tr>
+<tr align="right">
+
+	<td class="MIT" align="right">23</td>
+
+	<td align="right" class="MIT">18</td>
+
+	<td class="MIT" align="left"><a onClick="spielerinfo(68186); return false;" href="sp.php?s=68186">Nunes Abrao</a></td>
+
+	<td class="MIT">23</td>
+
+	<td class="MIT" colspan="2">MIT</td>
+
+	<td><img src="images/flaggen/POR.gif" /></td>
+
+	<td class="MIT" align="left"><abbr title="Portugal">POR</abbr></td>
+
+	<td class="STU"></td>
+
+	<td class="MIT">48.24</td>
+
+	<td class="MIT">78.67</td>
+
+	<td class="MIT">13</td>
+
+	<td class="MIT">90.123</td>
+
+	<td class="MIT">10.768.667</td>
+
+	<td class="BAK">0</td>
+
+</tr>
+<tr align="right">
+
+	<td class="MIT" align="right">24</td>
+
+	<td align="right" class="MIT">16</td>
+
+	<td class="MIT" align="left"><a onClick="spielerinfo(78416); return false;" href="sp.php?s=78416">Adrian Cragg</a></td>
+
+	<td class="MIT">21</td>
+
+	<td class="MIT" colspan="2">MIT</td>
+
+	<td><img src="images/flaggen/IRL.gif" /></td>
+
+	<td class="MIT" align="left"><abbr title="Irland">IRL</abbr></td>
+
+	<td class="STU"></td>
+
+	<td class="MIT">27.41</td>
+
+	<td class="MIT">37.85</td>
+
+	<td class="MIT">25</td>
+
+	<td class="MIT">2.146</td>
+
+	<td class="MIT">188.704</td>
+
+	<td class="BAK">0</td>
+
+</tr>
+<tr align="right">
+
+	<td class="OMI" align="right">25</td>
+
+	<td align="right" class="OMI">1</td>
+
+	<td class="OMI" align="left"><a onClick="spielerinfo(26752); return false;" href="sp.php?s=26752">Timo Volz</a></td>
+
+	<td class="OMI">31</td>
+
+	<td class="OMI" colspan="2">OMI</td>
+
+	<td><img src="images/flaggen/GER.gif" /></td>
+
+	<td class="OMI" align="left"><abbr title="Deutschland">GER</abbr></td>
+
+	<td class="STU"></td>
+
+	<td class="OMI">60.94</td>
+
+	<td class="OMI">82.81</td>
+
+	<td class="OMI">25</td>
+
+	<td class="OMI">181.056</td>
+
+	<td class="OMI">19.900.053</td>
+
+	<td class="OMI">L72</td>
+
+</tr>
+<tr align="right">
+
+	<td class="OMI" align="right">26</td>
+
+	<td align="right" class="OMI">21</td>
+
+	<td class="OMI" align="left"><a onClick="spielerinfo(38061); return false;" href="sp.php?s=38061">Michael Ptaek</a></td>
+
+	<td class="OMI">32</td>
+
+	<td class="OMI" colspan="2">OMI</td>
+
+	<td><img src="images/flaggen/CZE.gif" /></td>
+
+	<td class="OMI" align="left"><abbr title="Tschechien">CZE</abbr></td>
+
+	<td class="STU"></td>
+
+	<td class="OMI">58.59</td>
+
+	<td class="OMI">82.37</td>
+
+	<td class="OMI">12</td>
+
+	<td class="OMI">160.570</td>
+
+	<td class="OMI">15.410.723</td>
+
+	<td class="OMI">L4</td>
+
+</tr>
+<tr align="right">
+
+	<td class="OMI" align="right">27</td>
+
+	<td align="right" class="OMI">10</td>
+
+	<td class="OMI" align="left"><a onClick="spielerinfo(42016); return false;" href="sp.php?s=42016">Oleg Smirnov</a></td>
+
+	<td class="OMI">25</td>
+
+	<td class="OMI" colspan="2">OMI</td>
+
+	<td><img src="images/flaggen/RUS.gif" /></td>
+
+	<td class="OMI" align="left"><abbr title="Russland">RUS</abbr></td>
+
+	<td class="STU"></td>
+
+	<td class="OMI">60.47</td>
+
+	<td class="OMI">85.48</td>
+
+	<td class="OMI">16</td>
+
+	<td class="OMI">222.959</td>
+
+	<td class="OMI">31.662.273</td>
+
+	<td class="BAK">0</td>
+
+</tr>
+<tr align="right">
+
+	<td class="OMI" align="right">28</td>
+
+	<td align="right" class="OMI">12</td>
+
+	<td class="OMI" align="left"><a onClick="spielerinfo(87688); return false;" href="sp.php?s=87688">Catalin Mihail</a></td>
+
+	<td class="OMI">20</td>
+
+	<td class="OMI" colspan="2">OMI</td>
+
+	<td><img src="images/flaggen/ROM.gif" /></td>
+
+	<td class="OMI" align="left"><abbr title="Rum&auml;nien">ROM</abbr></td>
+
+	<td class="STU"></td>
+
+	<td class="OMI">41.59</td>
+
+	<td class="OMI">68.70</td>
+
+	<td class="OMI">9</td>
+
+	<td class="OMI">48.251</td>
+
+	<td class="OMI">4.317.903</td>
+
+	<td class="BAK">0</td>
+
+</tr>
+<tr align="right">
+
+	<td class="OMI" align="right">29</td>
+
+	<td align="right" class="OMI">0</td>
+
+	<td class="OMI" align="left"><a onClick="spielerinfo(98085); return false;" href="sp.php?s=98085">John Foley</a></td>
+
+	<td class="OMI">18</td>
+
+	<td class="OMI" colspan="2">OMI</td>
+
+	<td><img src="images/flaggen/IRL.gif" /></td>
+
+	<td class="OMI" align="left"><abbr title="Irland">IRL</abbr></td>
+
+	<td class="STU"></td>
+
+	<td class="OMI">14.41</td>
+
+	<td class="OMI">16.19</td>
+
+	<td class="OMI">13</td>
+
+	<td class="OMI">3.500</td>
+
+	<td class="OMI">13.739</td>
+
+	<td class="BAK">0</td>
+
+</tr>
+<tr align="right">
+
+	<td class="STU" align="right">30</td>
+
+	<td align="right" class="STU">9</td>
+
+	<td class="STU" align="left"><a onClick="spielerinfo(18277); return false;" href="sp.php?s=18277">Rosen Antonov</a></td>
+
+	<td class="STU">30</td>
+
+	<td class="STU" colspan="2">STU</td>
+
+	<td><img src="images/flaggen/BUL.gif" /></td>
+
+	<td class="STU" align="left"><abbr title="Bulgarien">BUL</abbr></td>
+
+	<td class="STU"></td>
+
+	<td class="STU">65.29</td>
+
+	<td class="STU">87.33</td>
+
+	<td class="STU">37</td>
+
+	<td class="STU">239.466</td>
+
+	<td class="STU">33.494.050</td>
+
+	<td class="BAK">0</td>
+
+</tr>
+<tr align="right">
+
+	<td class="STU" align="right">31</td>
+
+	<td align="right" class="STU">31</td>
+
+	<td class="STU" align="left"><a onClick="spielerinfo(36557); return false;" href="sp.php?s=36557">Kilian Wanner</a></td>
+
+	<td class="STU">30</td>
+
+	<td class="STU" colspan="2">STU</td>
+
+	<td><img src="images/flaggen/SUI.gif" /></td>
+
+	<td class="STU" align="left"><abbr title="Schweiz">SUI</abbr></td>
+
+	<td class="STU"></td>
+
+	<td class="STU">54.06</td>
+
+	<td class="STU">80.56</td>
+
+	<td class="STU">25</td>
+
+	<td class="STU">87.306</td>
+
+	<td class="STU">11.460.865</td>
+
+	<td class="BAK">0</td>
+
+</tr>
+<tr align="right">
+
+	<td class="STU" align="right">32</td>
+
+	<td align="right" class="STU">11</td>
+
+	<td class="STU" align="left"><a onClick="spielerinfo(42927); return false;" href="sp.php?s=42927">Joe Sebwe</a></td>
+
+	<td class="STU">25</td>
+
+	<td class="STU" colspan="2">STU</td>
+
+	<td><img src="images/flaggen/LBR.gif" /></td>
+
+	<td class="STU" align="left"><abbr title="Liberia">LBR</abbr></td>
+
+	<td class="STU">#</td>
+
+	<td class="STU">55.71</td>
+
+	<td class="STU">84.70</td>
+
+	<td class="STU">50</td>
+
+	<td class="STU">243.595</td>
+
+	<td class="STU">21.911.114</td>
+
+	<td class="BAK">0</td>
+
+</tr>
+<tr align="right">
+
+	<td class="STU" align="right">33</td>
+
+	<td align="right" class="STU">28</td>
+
+	<td class="STU" align="left"><a onClick="spielerinfo(51534); return false;" href="sp.php?s=51534">Bérenger Arnoud</a></td>
+
+	<td class="STU">24</td>
+
+	<td class="STU" colspan="2">STU</td>
+
+	<td><img src="images/flaggen/FRA.gif" /></td>
+
+	<td class="STU" align="left"><abbr title="Frankreich">FRA</abbr></td>
+
+	<td class="STU"></td>
+
+	<td class="STU">52.12</td>
+
+	<td class="STU">80.81</td>
+
+	<td class="STU">16</td>
+
+	<td class="STU">92.780</td>
+
+	<td class="STU">14.488.274</td>
+
+	<td class="BAK">0</td>
+
+</tr>
+<tr align="right">
+
+	<td class="STU" align="right">34</td>
+
+	<td align="right" class="STU">30</td>
+
+	<td class="STU" align="left"><a onClick="spielerinfo(58744); return false;" href="sp.php?s=58744">Steffen Ygranes</a></td>
+
+	<td class="STU">24</td>
+
+	<td class="STU" colspan="2">STU</td>
+
+	<td><img src="images/flaggen/NOR.gif" /></td>
+
+	<td class="STU" align="left"><abbr title="Norwegen">NOR</abbr></td>
+
+	<td class="STU"></td>
+
+	<td class="STU">52.47</td>
+
+	<td class="STU">78.22</td>
+
+	<td class="STU">26</td>
+
+	<td class="STU">92.372</td>
+
+	<td class="STU">12.833.935</td>
+
+	<td class="BAK">0</td>
+
+</tr>
+<tr align="right">
+
+	<td class="STU" align="right">35</td>
+
+	<td align="right" class="STU">32</td>
+
+	<td class="STU" align="left"><a onClick="spielerinfo(73911); return false;" href="sp.php?s=73911">Shane Logan</a></td>
+
+	<td class="STU">21</td>
+
+	<td class="STU" colspan="2">STU</td>
+
+	<td><img src="images/flaggen/IRL.gif" /></td>
+
+	<td class="STU" align="left"><abbr title="Irland">IRL</abbr></td>
+
+	<td class="STU"></td>
+
+	<td class="STU">30.65</td>
+
+	<td class="STU">37.22</td>
+
+	<td class="STU">7</td>
+
+	<td class="STU">3.203</td>
+
+	<td class="STU">231.633</td>
+
+	<td class="BAK">0</td>
+
+</tr>
+<tr align="right">
+
+	<td class="STU" align="right">36</td>
+
+	<td align="right" class="STU">0</td>
+
+	<td class="STU" align="left"><a onClick="spielerinfo(98084); return false;" href="sp.php?s=98084">Colm Brady</a></td>
+
+	<td class="STU">18</td>
+
+	<td class="STU" colspan="2">STU</td>
+
+	<td><img src="images/flaggen/IRL.gif" /></td>
+
+	<td class="STU" align="left"><abbr title="Irland">IRL</abbr></td>
+
+	<td class="STU"></td>
+
+	<td class="STU">17.53</td>
+
+	<td class="STU">18.00</td>
+
+	<td class="STU">13</td>
+
+	<td class="STU">3.500</td>
+
+	<td class="STU">20.991</td>
+
+	<td class="BAK">0</td>
+
+</tr>
+<tr class='sortbottom'>
+
+<td>#</td>
+
+<td>Nr.</td>
+
+<td>Name</td>
+
+<td>Alter</td>
+
+<td>Pos</td>
+
+<td></td>
+
+<td align="center" colspan="2">Land</td>
+
+<td>U</td>
+
+<td>Skillschnitt</td>
+
+<td>Opt.Skill</td>
+
+<td>Vertrag</td>
+
+<td>Monatsgehalt</td>
+
+<td>Spielerwert</td>
+
+<td>TS</td>
+
+</tr>
+
+</table>
+</div>
+
+</body>
+
+</html>
